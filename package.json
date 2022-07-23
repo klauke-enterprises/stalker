@@ -1,19 +1,12 @@
 {
-  "name": "stalker",
-  "version": "1.0.0",
-  "description": "Simple and fast status page built on GitHub Pages and using GitHub Actions.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/klauke-enterprises/stalker.git"
-  },
-  "author": "Felix Klauke <felix@klauke-enterprises.com>",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/klauke-enterprises/stalker/issues"
-  },
-  "homepage": "https://github.com/klauke-enterprises/stalker#readme"
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.6"
+  }
 }
